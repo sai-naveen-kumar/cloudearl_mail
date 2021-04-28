@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-q*5l0zm_2@33h4_qi@8wp-f7q&4)k+=k@shwg@(f7+m&25--d_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*','cloudearlmail.herokuapp.com','127.0.0.1']
 
 
 # Application definition
