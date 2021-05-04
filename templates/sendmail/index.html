@@ -21,6 +21,10 @@
 
 
      {% include "sendmail/home.html" %}
+    <h1> COVID CASES </h1>
+     {% autoescape off %}
+      {{ plotly }}
+     {% endautoescape %}
 
    
 </body>
