@@ -16,8 +16,8 @@ def my_def_in_view(request):
     message = request.GET.get('message', None)
     # Any process that you want
     print("****************************************************",message)
-    EMAIL_ADDRESS = "bsainaveenkumar@gmail.com"
-    EMAIL_PASSWORD = "NavKum@123"
+    EMAIL_ADDRESS = "******@gmail.com"
+    EMAIL_PASSWORD = "*************"
     contacts = recep
     msg = EmailMessage()
     msg['Subject'] = 'MAIL SENDED THROUGH DJANGOO'
